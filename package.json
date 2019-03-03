@@ -1,0 +1,36 @@
+{
+  "name": "entera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/page-index/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civerazdaM/entera.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civerazdaM/entera/issues"
+  },
+  "homepage": "https://github.com/civerazdaM/entera#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^1.3.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
