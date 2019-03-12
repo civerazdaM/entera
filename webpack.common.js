@@ -9,7 +9,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(["dist"]),
     new HtmlWebpackPlugin({
-      title: "Entera - Defektološko savetovalište"
+      title: "Entera - Defektološko savetovalište",
+      template: "./src/page-index/index.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "index.html"
     })
   ],
   output: {
