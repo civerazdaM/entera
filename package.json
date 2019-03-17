@@ -33,6 +33,8 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2"
   }
 }
