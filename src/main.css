@@ -233,7 +233,7 @@ a {
   position: relative;
   padding-bottom: 3.188em;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .show-more-info-label {
@@ -250,6 +250,7 @@ a {
   border: none;
   border-radius: 4px;
   transition: box-shadow 0.2s;
+  align-self: center;
 }
 
 .show-more-info-label:hover {
